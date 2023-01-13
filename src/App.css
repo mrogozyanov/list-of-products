@@ -1,0 +1,61 @@
+.conteiner {
+  margin: 20px auto;
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+}
+
+body {
+  background-color: #62c2c8;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul, li {
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.colorRed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+.conteiner_two {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  }
+
+  .btn-add {
+
+    background: #65aa06;
+    margin-top: 5px;
+  }
+
+  .btn-delete {
+    background: #d30100;
+    margin-bottom: 5px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  input {
+    flex: 1;
+    padding: 7px;
+    font-size: 17px;
+  }
+
+  
