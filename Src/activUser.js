@@ -41,12 +41,12 @@ export class ActivUser extends Component {
     }
 
     enterSumbit(e){
-       // e.preventDefault();
+       e.preventDefault();
     }
 
     render(){
         return(
-            <form onSubmit={this.enterSumbit()}>
+            <form onSubmit={this.enterSumbit}>
             <div>
                 <div className="conteiner_two">
                     <input placeholder="What do you want to buy today?" 
